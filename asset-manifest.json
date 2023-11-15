@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-app/static/css/main.fb6e0920.css",
+    "main.js": "/react-portfolio-app/static/js/main.59a36c09.js",
+    "static/media/Screenshot 2023-07-24 142543.png": "/react-portfolio-app/static/media/Screenshot 2023-07-24 142543.7ee34f87b060e6f5902b.png",
+    "static/media/nptl.jpg": "/react-portfolio-app/static/media/nptl.c5bb3a6b541eda4858c7.jpg",
+    "static/media/Screenshot 2023-07-15 162221.png": "/react-portfolio-app/static/media/Screenshot 2023-07-15 162221.8967dba522cadd3c1bcd.png",
+    "static/media/Google-cloud.jpg": "/react-portfolio-app/static/media/Google-cloud.abf4fcbdbcbc14b75ca5.jpg",
+    "static/media/Resume-Ashwini-mirajkar.pdf": "/react-portfolio-app/static/media/Resume-Ashwini-mirajkar.d43a0ef58dfc32e2c4e7.pdf",
+    "static/media/as.jpg": "/react-portfolio-app/static/media/as.ff75c8c694d1214cf528.jpg",
+    "static/media/Screenshot 2023-07-27 201106.png": "/react-portfolio-app/static/media/Screenshot 2023-07-27 201106.0bcf95c286532dbbec87.png",
+    "index.html": "/react-portfolio-app/index.html",
+    "main.fb6e0920.css.map": "/react-portfolio-app/static/css/main.fb6e0920.css.map",
+    "main.59a36c09.js.map": "/react-portfolio-app/static/js/main.59a36c09.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb6e0920.css",
+    "static/js/main.59a36c09.js"
+  ]
+}
