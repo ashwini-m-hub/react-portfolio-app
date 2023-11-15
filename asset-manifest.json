@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.fb6e0920.css",
+    "main.js": "/my-portfolio/static/js/main.b80f5a43.js",
+    "static/media/Screenshot 2023-07-24 142543.png": "/my-portfolio/static/media/Screenshot 2023-07-24 142543.7ee34f87b060e6f5902b.png",
+    "static/media/nptl.jpg": "/my-portfolio/static/media/nptl.c5bb3a6b541eda4858c7.jpg",
+    "static/media/Screenshot 2023-07-15 162221.png": "/my-portfolio/static/media/Screenshot 2023-07-15 162221.8967dba522cadd3c1bcd.png",
+    "static/media/Google-cloud.jpg": "/my-portfolio/static/media/Google-cloud.abf4fcbdbcbc14b75ca5.jpg",
+    "static/media/Resume-Ashwini-mirajkar.pdf": "/my-portfolio/static/media/Resume-Ashwini-mirajkar.d43a0ef58dfc32e2c4e7.pdf",
+    "static/media/as.jpg": "/my-portfolio/static/media/as.ff75c8c694d1214cf528.jpg",
+    "static/media/Screenshot 2023-07-27 201106.png": "/my-portfolio/static/media/Screenshot 2023-07-27 201106.0bcf95c286532dbbec87.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.fb6e0920.css.map": "/my-portfolio/static/css/main.fb6e0920.css.map",
+    "main.b80f5a43.js.map": "/my-portfolio/static/js/main.b80f5a43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb6e0920.css",
+    "static/js/main.b80f5a43.js"
+  ]
+}
