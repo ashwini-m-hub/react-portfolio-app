@@ -1,0 +1,68 @@
+#project h1{
+  margin-left: 4rem;
+  padding: 1rem;
+}
+.container.project {
+  display: flex;
+  gap: 1rem;
+}
+.projects {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  align-items: center;
+}
+.projects img{
+  height: auto;
+  width: 100%;
+}
+
+.projects h2 {
+  margin-top: 2rem;
+  background: #f0f0f0;
+  color: #333;
+}
+
+.projects small {
+  background:  #f0f0f0;
+  color: #333;
+
+}
+
+.projects a {
+ background: #f0f0f0;
+}
+.project .projects .btn {
+  border-color: #333;
+  margin-right: 4rem;
+  margin-top: 1rem;
+}
+
+
+@media (max-width: 600px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 25px;
+  }
+  .projects img {
+    width: 100%;
+    height: auto;
+  }
+  .projects h2 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  .projects h2,
+  small {
+    margin: 1rem;
+    background: #f0f0f0;
+  }
+  .projects a {
+    background: #f0f0f0;
+    margin-right:2rem ;
+  }
+}

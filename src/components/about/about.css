@@ -1,0 +1,37 @@
+#about {
+  height: 100vh;
+  font-size: 25px;
+}
+#about h1 {
+  margin: 5rem;
+}
+.about {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+@media (max-width: 600px) {
+  #about {
+    height: 120vh;
+    font-size: 25px;
+  }
+  .education {
+    text-align: center;
+  }
+
+  .about {
+    margin-top: -4rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,102 @@
+#hobbies h1 {
+  margin: 3rem;
+  padding: 1rem;
+}
+.Mehendi-container,
+.dog-container,
+.cooking-container {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.Mehendi-container,
+.dog-container,
+.cooking-container,
+.h2 {
+  align-items: center;
+}
+.mehdni-img {
+  margin: 4rem;
+  width: 400px;
+  height: 350px;
+  border-radius: 20%;
+  box-shadow: 8px 6px 6px 6px #008080;
+}
+.mehdni-img img {
+  width: 400px;
+  height: 350px;
+  border-radius: 10%;
+  padding: 1%;
+  background: gray;
+  object-fit: cover;
+}
+.Mehendi-container,
+.dog-container,
+.cooking-container h3 {
+  margin-top: 2rem;
+}
+.dog-img {
+  height: 500px;
+  width: 480px;
+  border-radius: 50%;
+}
+.dog-img img {
+  height: 450px;
+  width: 460px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 6px 6px #008080;
+  object-fit: cover;
+}
+.hobies-container {
+  margin-top: -4rem;
+  margin-left: 8rem;
+}
+@media (max-width: 600px) {
+  .hobies-container {
+    margin-left: 2rem;
+  }
+  .Mehendi-container h2 {
+    margin: 6rem;
+  }
+  .Mehendi-container h3 {
+    display: none;
+  }
+  .Mehendi-container,
+  .cooking-container {
+    display: contents;
+  }
+  .mehdni-img {
+    margin-top: -4rem;
+    width: 350px;
+    height: 250px;
+    box-shadow: 8px 6px 6px 6px #008080;
+  }
+
+  .mehdni-img img {
+    width: 350px;
+    height: 250px;
+    border-radius: 10%;
+    padding: 1%;
+    background: gray;
+    background-image: url("/public/images/brick-wall.png");
+  }
+  .dog-img {
+    height: 350px;
+    width: 400px;
+    border-radius: 50%;
+  }
+  .dog-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .dog-img img {
+    height: 350px;
+    width: 380px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 6px 6px #008080;
+  }
+  .dog-container h3 p {
+    display: none;
+  }
+}

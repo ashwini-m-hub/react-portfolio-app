@@ -1,0 +1,43 @@
+#Certification h1 {
+  margin: 3rem;
+  padding: 2rem;
+}
+.certificats{
+  margin-left: 10rem;
+  display: flex;
+  gap: 2rem;
+  text-align: center;
+}
+.certificats img{
+  height: 250px;
+  width: 350px;
+  border-radius: 1rem;
+
+}
+.certificats h3{
+  margin-top: 1rem;
+}
+.certificats h4{
+  margin-top: 1rem;
+}
+@media screen and (max-width: 600px) {
+  #Certification h1 {
+    margin: 1rem;
+    padding: 2rem;
+  }
+  .certificats img {
+    display: none;
+  }
+  .certificats{
+    display: contents;
+  }
+  .certificats  h3 {
+    font-size: 20px;
+    text-align: start;
+    margin-left: 5rem;
+    display: list-item;
+  }
+  .certificats  h4 {
+ display: none;
+  }
+}
