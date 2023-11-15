@@ -1,7 +1,9 @@
 {
+  "homepage": "https://<Username>.github.io/<Repository-name>",
   "name": "my-portfolio-website",
   "version": "0.1.0",
   "private": true,
+  
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@emailjs/browser": "^3.11.0",
@@ -22,13 +24,16 @@
     "react-slideshow-image": "^4.2.1",
     "typewriter-effect": "^2.20.1",
     "web-vitals": "^2.1.4"
+    
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://yourusername.github.io/Portfolio-app"
+    "homepage": "https://yourusername.github.io/Portfolio-app",
   },
   "eslintConfig": {
     "extends": [
